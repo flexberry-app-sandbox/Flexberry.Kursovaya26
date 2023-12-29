@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-спр-тип-транс-ср-e",
+  "editForm": "i-i-s-kursovaya-спр-тип-транс-ср-e",
+  "external": false,
+  "caption": "Справочник Тип Транспортного Средства",
+  "name": "IISKursovayaСпрТипТрансСрL",
+  "className": "СпрТипТрансСрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-спр-тип-транс-ср",
+      "modelProjection": "СпрТипТрансСрL"
+    }
+  ]
+}

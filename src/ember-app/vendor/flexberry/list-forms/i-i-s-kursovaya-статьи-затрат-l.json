@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-статьи-затрат-e",
+  "editForm": "i-i-s-kursovaya-статьи-затрат-e",
+  "external": false,
+  "caption": "Статьи затрат",
+  "name": "IISKursovayaСтатьиЗатратL",
+  "className": "СтатьиЗатратL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-статьи-затрат",
+      "modelProjection": "СтатьиЗатратL"
+    }
+  ]
+}

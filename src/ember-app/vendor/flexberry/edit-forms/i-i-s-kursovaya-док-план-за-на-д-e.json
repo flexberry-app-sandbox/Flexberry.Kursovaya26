@@ -1,0 +1,87 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Организация",
+      "projection": "ОрганизацияL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СпрПользов",
+      "projection": "СпрПользовL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СпрОбъектСтр",
+      "projection": "СпрОбъектСтрL",
+      "detailModelName": null
+    },
+    {
+      "master": "статьиЗатрат",
+      "displayAttributeName": "статья затрат",
+      "required": true,
+      "relationName": "ТЧПлЗНаД.СтатьиЗатрат",
+      "projection": "СтатьиЗатратL",
+      "detailModelName": "i-i-s-kursovaya-т-ч-пл-з-на-д"
+    },
+    {
+      "master": "спрНомен",
+      "displayAttributeName": "номенклатура",
+      "required": true,
+      "relationName": "ТЧПлЗНаД.СпрНомен",
+      "projection": "СпрНоменL",
+      "detailModelName": "i-i-s-kursovaya-т-ч-пл-з-на-д"
+    },
+    {
+      "master": "спрКонтрАг",
+      "displayAttributeName": "контрагент",
+      "required": true,
+      "relationName": "ТЧПлЗНаД.СпрКонтрАг",
+      "projection": "СпрКонтрАгL",
+      "detailModelName": "i-i-s-kursovaya-т-ч-пл-з-на-д"
+    },
+    {
+      "master": "спрВидыРаб",
+      "displayAttributeName": "вид работы",
+      "required": true,
+      "relationName": "ТЧПлЗНаД.СпрВидыРаб",
+      "projection": "СпрВидыРабL",
+      "detailModelName": "i-i-s-kursovaya-т-ч-пл-з-на-д"
+    },
+    {
+      "master": "трСрКнтр",
+      "displayAttributeName": "транспортное средство контрагента",
+      "required": true,
+      "relationName": "ТЧПлЗНаД.ТрСрКнтр",
+      "projection": "ТрСрКнтрL",
+      "detailModelName": "i-i-s-kursovaya-т-ч-пл-з-на-д"
+    },
+    {
+      "master": "спрЕдИзмер",
+      "displayAttributeName": "единица измерения",
+      "required": true,
+      "relationName": "ТЧПлЗНаД.СпрЕдИзмер",
+      "projection": "СпрЕдИзмерL",
+      "detailModelName": "i-i-s-kursovaya-т-ч-пл-з-на-д"
+    }
+  ],
+  "external": false,
+  "caption": "Документ: Плановая заявка на день",
+  "name": "IISKursovayaДокПланЗаНаДE",
+  "className": "ДокПланЗаНаДE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-док-план-за-на-д",
+      "modelProjection": "ДокПланЗаНаДE"
+    }
+  ]
+}

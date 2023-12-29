@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-тр-ср-кнтр-e",
+  "editForm": "i-i-s-kursovaya-тр-ср-кнтр-e",
+  "external": false,
+  "caption": "Транспортное средство контрагента",
+  "name": "IISKursovayaТрСрКнтрL",
+  "className": "ТрСрКнтрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-тр-ср-кнтр",
+      "modelProjection": "ТрСрКнтрL"
+    }
+  ]
+}

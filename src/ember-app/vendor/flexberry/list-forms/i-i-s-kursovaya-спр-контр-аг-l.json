@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-спр-контр-аг-e",
+  "editForm": "i-i-s-kursovaya-спр-контр-аг-e",
+  "external": false,
+  "caption": "Справочник контрагенты",
+  "name": "IISKursovayaСпрКонтрАгL",
+  "className": "СпрКонтрАгL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-спр-контр-аг",
+      "modelProjection": "СпрКонтрАгL"
+    }
+  ]
+}

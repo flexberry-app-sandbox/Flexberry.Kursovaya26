@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-организация-e",
+  "editForm": "i-i-s-kursovaya-организация-e",
+  "external": false,
+  "caption": "Организация",
+  "name": "IISKursovayaОрганизацияL",
+  "className": "ОрганизацияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-организация",
+      "modelProjection": "ОрганизацияL"
+    }
+  ]
+}

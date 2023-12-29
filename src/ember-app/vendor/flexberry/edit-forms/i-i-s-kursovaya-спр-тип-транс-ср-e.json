@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Справочник Тип Транспортного Средства",
+  "name": "IISKursovayaСпрТипТрансСрE",
+  "className": "СпрТипТрансСрE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-спр-тип-транс-ср",
+      "modelProjection": "СпрТипТрансСрE"
+    }
+  ]
+}

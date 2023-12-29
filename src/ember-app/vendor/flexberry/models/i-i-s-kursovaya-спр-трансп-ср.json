@@ -1,0 +1,232 @@
+﻿{
+  "name": "IISKursovayaСпрТранспСр",
+  "modelName": "i-i-s-kursovaya-спр-трансп-ср",
+  "className": "СпрТранспСр",
+  "nameSpace": "IIS.Kursovaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "видПеревоз",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "госНомер",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "грузПодъемВТон",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "код",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "лицеКартНомер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "марка",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "спрТипТрансСр",
+      "relatedTo": "i-i-s-kursovaya-спр-тип-транс-ср",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СпрТранспСрE",
+      "modelName": "i-i-s-kursovaya-спр-трансп-ср",
+      "attrs": [
+        {
+          "name": "код",
+          "caption": "Код",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "видПеревоз",
+          "caption": "Вид перевозки",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "госНомер",
+          "caption": "Государственный номер",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "грузПодъемВТон",
+          "caption": "Грузоподъемность в тоннах",
+          "hidden": false,
+          "index": 6
+        },
+        {
+          "name": "марка",
+          "caption": "Марка",
+          "hidden": false,
+          "index": 7
+        },
+        {
+          "name": "лицеКартНомер",
+          "caption": "Лицензионная карточка (номер)",
+          "hidden": false,
+          "index": 8
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "СпрТипТрансСр",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Тип транспортного средства",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": 3,
+          "type": "default",
+          "caption": "Тип транспортного средства",
+          "name": "спрТипТрансСр",
+          "relatedTo": "i-i-s-kursovaya-спр-тип-транс-ср",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "СпрТранспСрL",
+      "modelName": "i-i-s-kursovaya-спр-трансп-ср",
+      "attrs": [
+        {
+          "name": "код",
+          "caption": "Код",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "видПеревоз",
+          "caption": "Вид перевозки",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "госНомер",
+          "caption": "Государственный номер",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "грузПодъемВТон",
+          "caption": "Грузоподъемность в тоннах",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "марка",
+          "caption": "Марка",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "лицеКартНомер",
+          "caption": "Лицензионная карточка (номер)",
+          "hidden": false,
+          "index": 6
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 7
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "СпрТипТрансСр",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Тип транспортного средства",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Тип транспортного средства",
+          "name": "спрТипТрансСр",
+          "relatedTo": "i-i-s-kursovaya-спр-тип-транс-ср",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

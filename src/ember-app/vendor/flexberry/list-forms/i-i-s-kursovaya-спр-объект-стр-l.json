@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-спр-объект-стр-e",
+  "editForm": "i-i-s-kursovaya-спр-объект-стр-e",
+  "external": false,
+  "caption": "Справочник объекты строительства",
+  "name": "IISKursovayaСпрОбъектСтрL",
+  "className": "СпрОбъектСтрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-спр-объект-стр",
+      "modelProjection": "СпрОбъектСтрL"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-спр-пользов-e",
+  "editForm": "i-i-s-kursovaya-спр-пользов-e",
+  "external": false,
+  "caption": "Справочник Пользователи",
+  "name": "IISKursovayaСпрПользовL",
+  "className": "СпрПользовL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-спр-пользов",
+      "modelProjection": "СпрПользовL"
+    }
+  ]
+}

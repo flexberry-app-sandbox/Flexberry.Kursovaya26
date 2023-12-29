@@ -1,0 +1,87 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Организация",
+      "projection": "ОрганизацияL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СпрПользов",
+      "projection": "СпрПользовL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СпрОбъектСтр",
+      "projection": "СпрОбъектСтрL",
+      "detailModelName": null
+    },
+    {
+      "master": "статьиЗатрат",
+      "displayAttributeName": "статья затрат",
+      "required": true,
+      "relationName": "ТЧФактВыпР.СтатьиЗатрат",
+      "projection": "СтатьиЗатратL",
+      "detailModelName": "i-i-s-kursovaya-т-ч-факт-вып-р"
+    },
+    {
+      "master": "спрНомен",
+      "displayAttributeName": "номенклатура",
+      "required": true,
+      "relationName": "ТЧФактВыпР.СпрНомен",
+      "projection": "СпрНоменL",
+      "detailModelName": "i-i-s-kursovaya-т-ч-факт-вып-р"
+    },
+    {
+      "master": "спрКонтрАг",
+      "displayAttributeName": "контрагент",
+      "required": true,
+      "relationName": "ТЧФактВыпР.СпрКонтрАг",
+      "projection": "СпрКонтрАгL",
+      "detailModelName": "i-i-s-kursovaya-т-ч-факт-вып-р"
+    },
+    {
+      "master": "спрВидыРаб",
+      "displayAttributeName": "вид работы",
+      "required": true,
+      "relationName": "ТЧФактВыпР.СпрВидыРаб",
+      "projection": "СпрВидыРабL",
+      "detailModelName": "i-i-s-kursovaya-т-ч-факт-вып-р"
+    },
+    {
+      "master": "трСрКнтр",
+      "displayAttributeName": "транспортное средство контрагента",
+      "required": true,
+      "relationName": "ТЧФактВыпР.ТрСрКнтр",
+      "projection": "ТрСрКнтрL",
+      "detailModelName": "i-i-s-kursovaya-т-ч-факт-вып-р"
+    },
+    {
+      "master": "спрЕдИзмер",
+      "displayAttributeName": "единица измерения",
+      "required": true,
+      "relationName": "ТЧФактВыпР.СпрЕдИзмер",
+      "projection": "СпрЕдИзмерL",
+      "detailModelName": "i-i-s-kursovaya-т-ч-факт-вып-р"
+    }
+  ],
+  "external": false,
+  "caption": "Фактическое выполнение работ",
+  "name": "IISKursovayaФактВыполРабE",
+  "className": "ФактВыполРабE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-факт-выпол-раб",
+      "modelProjection": "ФактВыполРабE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-спр-номен-e",
+  "editForm": "i-i-s-kursovaya-спр-номен-e",
+  "external": false,
+  "caption": "Справочник номенклатура",
+  "name": "IISKursovayaСпрНоменL",
+  "className": "СпрНоменL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-спр-номен",
+      "modelProjection": "СпрНоменL"
+    }
+  ]
+}

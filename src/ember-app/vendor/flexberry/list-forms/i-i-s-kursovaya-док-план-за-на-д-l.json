@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-док-план-за-на-д-e",
+  "editForm": "i-i-s-kursovaya-док-план-за-на-д-e",
+  "external": false,
+  "caption": "Документ: Плановая заявка на день",
+  "name": "IISKursovayaДокПланЗаНаДL",
+  "className": "ДокПланЗаНаДL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-док-план-за-на-д",
+      "modelProjection": "ДокПланЗаНаДL"
+    }
+  ]
+}

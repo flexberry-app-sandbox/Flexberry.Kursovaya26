@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СпрТипТрансСр",
+      "projection": "СпрТипТрансСрL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Справочник Транспортное средство",
+  "name": "IISKursovayaСпрТранспСрE",
+  "className": "СпрТранспСрE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-спр-трансп-ср",
+      "modelProjection": "СпрТранспСрE"
+    }
+  ]
+}

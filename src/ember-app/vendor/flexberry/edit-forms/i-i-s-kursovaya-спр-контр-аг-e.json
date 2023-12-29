@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Справочник контрагенты",
+  "name": "IISKursovayaСпрКонтрАгE",
+  "className": "СпрКонтрАгE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-спр-контр-аг",
+      "modelProjection": "СпрКонтрАгE"
+    }
+  ]
+}

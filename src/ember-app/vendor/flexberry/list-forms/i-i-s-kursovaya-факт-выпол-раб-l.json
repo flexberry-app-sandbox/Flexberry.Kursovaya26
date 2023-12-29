@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-факт-выпол-раб-e",
+  "editForm": "i-i-s-kursovaya-факт-выпол-раб-e",
+  "external": false,
+  "caption": "Фактическое выполнение работ",
+  "name": "IISKursovayaФактВыполРабL",
+  "className": "ФактВыполРабL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-факт-выпол-раб",
+      "modelProjection": "ФактВыполРабL"
+    }
+  ]
+}

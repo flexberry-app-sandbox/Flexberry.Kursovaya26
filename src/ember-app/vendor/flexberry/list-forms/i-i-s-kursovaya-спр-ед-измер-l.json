@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-спр-ед-измер-e",
+  "editForm": "i-i-s-kursovaya-спр-ед-измер-e",
+  "external": false,
+  "caption": "Справочник единицы измерения",
+  "name": "IISKursovayaСпрЕдИзмерL",
+  "className": "СпрЕдИзмерL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-спр-ед-измер",
+      "modelProjection": "СпрЕдИзмерL"
+    }
+  ]
+}

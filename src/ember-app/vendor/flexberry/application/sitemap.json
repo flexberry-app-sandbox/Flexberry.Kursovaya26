@@ -1,0 +1,106 @@
+﻿{
+  "applicationCaption": "Kursovaya",
+  "applicationTitle": "Kursovaya",
+  "items": [
+    {
+      "link": null,
+      "menuName": "приложение",
+      "caption": "Приложение",
+      "title": "Приложение",
+      "children": [
+        {
+          "link": "i-i-s-kursovaya-спр-пользов-l",
+          "menuName": null,
+          "caption": "Справочник: Пользователи",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-тр-ср-кнтр-l",
+          "menuName": null,
+          "caption": "Справочник: Транспортные средства контрагента",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-статьи-затрат-l",
+          "menuName": null,
+          "caption": "Справочник: Статьи Затрат",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-спр-трансп-ср-l",
+          "menuName": null,
+          "caption": "Справочник: Транспортные Средства",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-док-план-за-на-д-l",
+          "menuName": null,
+          "caption": "Документ: Плановая заявка на день",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-спр-контр-аг-l",
+          "menuName": null,
+          "caption": "Справочник: Контрагенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-спр-виды-раб-l",
+          "menuName": null,
+          "caption": "Справочник: Виды Работ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-организация-l",
+          "menuName": null,
+          "caption": "Справочник: Организации",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-спр-номен-l",
+          "menuName": null,
+          "caption": "Справочник: Номенклатуры",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-спр-тип-транс-ср-l",
+          "menuName": null,
+          "caption": "Справочник: Тип транспортного средства",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-спр-объект-стр-l",
+          "menuName": null,
+          "caption": "Справочник: Объект строительства",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-спр-ед-измер-l",
+          "menuName": null,
+          "caption": "Справочник: Единицы измерения",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-факт-выпол-раб-l",
+          "menuName": null,
+          "caption": "Документ: Фактическое выполнение работ",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
