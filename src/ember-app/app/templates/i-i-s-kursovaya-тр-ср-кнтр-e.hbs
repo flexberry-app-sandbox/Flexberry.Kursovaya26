@@ -70,4 +70,30 @@
     }}
     {{flexberry-validationmessage error=(v-get validationModel.спрТранспСр "наименование" "message")}}
   </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursovaya-тр-ср-кнтр-e.спрКонтрАг-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.спрКонтрАг
+      relationName="спрКонтрАг"
+      projection="СпрКонтрАгL"
+      title=(t "forms.i-i-s-kursovaya-тр-ср-кнтр-e.спрКонтрАг-caption")
+      readonly=readonly
+      componentName="спрКонтрАгLookup"
+      class=(if (v-get validationModel "спрКонтрАг" "isInvalid") "error")
+      data-test-i-i-s-kursovaya-тр-ср-кнтр-e-спрКонтрАг=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "спрКонтрАг" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.спрКонтрАг.наименование
+      class=(if (v-get validationModel.спрКонтрАг "наименование" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursovaya-тр-ср-кнтр-e.спрКонтрАг.наименование-caption")
+      data-test-i-i-s-kursovaya-тр-ср-кнтр-e-спрКонтрАг-наименование=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.спрКонтрАг "наименование" "message")}}
+  </div>
 </form>

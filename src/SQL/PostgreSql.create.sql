@@ -31,6 +31,7 @@ CREATE TABLE ТрСрКнтр (
  primaryKey UUID NOT NULL,
  Код INT NULL,
  РегНом VARCHAR(255) NULL,
+ СпрКонтрАг UUID NOT NULL,
  СпрТранспСр UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 
@@ -60,6 +61,7 @@ CREATE TABLE ДокПланЗаНаД (
  Номер INT NULL,
  Дата TIMESTAMP(3) NULL,
  Время VARCHAR(255) NULL,
+ Статус VARCHAR(255) NULL,
  СпрОбъектСтр UUID NOT NULL,
  Организация UUID NOT NULL,
  СпрПользов UUID NOT NULL,
@@ -282,6 +284,9 @@ CREATE INDEX Indexac908761c6de9cbe037d803cfb4b1e1fee681a00 on ТЧПлЗНаД (
 
  ALTER TABLE ТЧПлЗНаД ADD CONSTRAINT FK03d677498857c017bb3c050822879fa2032345bb FOREIGN KEY (ДокПланЗаНаД) REFERENCES ДокПланЗаНаД; 
 CREATE INDEX Index03d677498857c017bb3c050822879fa2032345bb on ТЧПлЗНаД (ДокПланЗаНаД); 
+
+ ALTER TABLE ТрСрКнтр ADD CONSTRAINT FKa77479b9854635268b78a39e3dca89fac68efbc2 FOREIGN KEY (СпрКонтрАг) REFERENCES СпрКонтрАг; 
+CREATE INDEX Indexa77479b9854635268b78a39e3dca89fac68efbc2 on ТрСрКнтр (СпрКонтрАг); 
 
  ALTER TABLE ТрСрКнтр ADD CONSTRAINT FK19caf47c2298d1fcd557a0becbfb33e4a3884a39 FOREIGN KEY (СпрТранспСр) REFERENCES СпрТранспСр; 
 CREATE INDEX Index19caf47c2298d1fcd557a0becbfb33e4a3884a39 on ТрСрКнтр (СпрТранспСр); 

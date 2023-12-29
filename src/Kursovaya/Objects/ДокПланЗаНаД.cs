@@ -33,6 +33,7 @@ namespace IIS.Kursovaya
             "Номер as \'Номер\'",
             "Дата as \'Дата\'",
             "Время as \'Время\'",
+            "Статус as \'Статус\'",
             "Организация as \'Организация\'",
             "Организация.Наименование as \'Организация\'",
             "СпрПользов as \'Пользователь\'",
@@ -45,6 +46,7 @@ namespace IIS.Kursovaya
             "Номер as \'Номер\'",
             "Дата as \'Дата\'",
             "Время as \'Время\'",
+            "Статус as \'Статус\'",
             "Организация.Наименование as \'Организация\'",
             "СпрПользов.ФИО as \'Пользователь\'",
             "СпрОбъектСтр.Наименование as \'Объект строительства\'"})]
@@ -56,6 +58,8 @@ namespace IIS.Kursovaya
         private System.DateTime fДата;
         
         private string fВремя;
+        
+        private string fСтатус;
         
         private IIS.Kursovaya.СпрОбъектСтр fСпрОбъектСтр;
         
@@ -161,6 +165,38 @@ namespace IIS.Kursovaya
                 // *** Start programmer edit section *** (ДокПланЗаНаД.Номер Set end)
 
                 // *** End programmer edit section *** (ДокПланЗаНаД.Номер Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Статус.
+        /// </summary>
+        // *** Start programmer edit section *** (ДокПланЗаНаД.Статус CustomAttributes)
+
+        // *** End programmer edit section *** (ДокПланЗаНаД.Статус CustomAttributes)
+        [StrLen(255)]
+        public virtual string Статус
+        {
+            get
+            {
+                // *** Start programmer edit section *** (ДокПланЗаНаД.Статус Get start)
+
+                // *** End programmer edit section *** (ДокПланЗаНаД.Статус Get start)
+                string result = this.fСтатус;
+                // *** Start programmer edit section *** (ДокПланЗаНаД.Статус Get end)
+
+                // *** End programmer edit section *** (ДокПланЗаНаД.Статус Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (ДокПланЗаНаД.Статус Set start)
+
+                // *** End programmer edit section *** (ДокПланЗаНаД.Статус Set start)
+                this.fСтатус = value;
+                // *** Start programmer edit section *** (ДокПланЗаНаД.Статус Set end)
+
+                // *** End programmer edit section *** (ДокПланЗаНаД.Статус Set end)
             }
         }
         

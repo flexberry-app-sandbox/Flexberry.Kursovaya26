@@ -57,6 +57,8 @@ CREATE TABLE "ТрСрКнтр"
 
 	"РегНом" NVARCHAR2(255) NULL,
 
+	"СпрКонтрАг" RAW(16) NOT NULL,
+
 	"СпрТранспСр" RAW(16) NOT NULL,
 
 	 PRIMARY KEY ("primaryKey")
@@ -111,6 +113,8 @@ CREATE TABLE "ДокПланЗаНаД"
 	"Дата" DATE NULL,
 
 	"Время" NVARCHAR2(255) NULL,
+
+	"Статус" NVARCHAR2(255) NULL,
 
 	"СпрОбъектСтр" RAW(16) NOT NULL,
 
@@ -529,6 +533,11 @@ ALTER TABLE "ТЧПлЗНаД"
 	ADD CONSTRAINT "ТЧПлЗНаД_FДокП_53" FOREIGN KEY ("ДокПланЗаНаД") REFERENCES "ДокПланЗаНаД" ("primaryKey");
 
 CREATE INDEX "ТЧПлЗНаД_IДок_8772" on "ТЧПлЗНаД" ("ДокПланЗаНаД");
+
+ALTER TABLE "ТрСрКнтр"
+	ADD CONSTRAINT "ТрСрКнтр_FСпр_7275" FOREIGN KEY ("СпрКонтрАг") REFERENCES "СпрКонтрАг" ("primaryKey");
+
+CREATE INDEX "ТрСрКнтр_IСпр_4570" on "ТрСрКнтр" ("СпрКонтрАг");
 
 ALTER TABLE "ТрСрКнтр"
 	ADD CONSTRAINT "ТрСрКнтр_FСпр_8267" FOREIGN KEY ("СпрТранспСр") REFERENCES "СпрТранспСр" ("primaryKey");

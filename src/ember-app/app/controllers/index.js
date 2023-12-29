@@ -22,66 +22,66 @@ export default Controller.extend({
             link: 'i-i-s-kursovaya-спр-пользов-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-спр-пользов-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-спр-пользов-l.title'),
-            icon: 'suitcase',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-kursovaya-тр-ср-кнтр-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-тр-ср-кнтр-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-тр-ср-кнтр-l.title'),
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-kursovaya-статьи-затрат-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-статьи-затрат-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-статьи-затрат-l.title'),
-            icon: 'tasks',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-kursovaya-спр-трансп-ср-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-спр-трансп-ср-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-спр-трансп-ср-l.title'),
-            icon: 'folder open',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-kursovaya-спр-контр-аг-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-спр-контр-аг-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-спр-контр-аг-l.title'),
-            icon: 'building',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-kursovaya-спр-виды-раб-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-спр-виды-раб-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-спр-виды-раб-l.title'),
-            icon: 'tags',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-kursovaya-организация-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-организация-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-организация-l.title'),
-            icon: 'file',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-kursovaya-спр-номен-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-спр-номен-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-спр-номен-l.title'),
-            icon: 'paperclip',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-kursovaya-спр-тип-транс-ср-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-спр-тип-транс-ср-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-спр-тип-транс-ср-l.title'),
-            icon: 'list',
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-kursovaya-спр-объект-стр-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-спр-объект-стр-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-спр-объект-стр-l.title'),
-            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-kursovaya-спр-ед-измер-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-спр-ед-измер-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-kursovaya-спр-ед-измер-l.title'),
-            icon: 'tasks',
+            icon: 'address card',
             children: null
           }]
         }, {
@@ -93,13 +93,12 @@ export default Controller.extend({
             link: 'i-i-s-kursovaya-док-план-за-на-д-l',
             caption: i18n.t('forms.application.sitemap.документы.i-i-s-kursovaya-док-план-за-на-д-l.caption'),
             title: i18n.t('forms.application.sitemap.документы.i-i-s-kursovaya-док-план-за-на-д-l.title'),
-            icon: 'folder',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-kursovaya-факт-выпол-раб-l',
             caption: i18n.t('forms.application.sitemap.документы.i-i-s-kursovaya-факт-выпол-раб-l.caption'),
             title: i18n.t('forms.application.sitemap.документы.i-i-s-kursovaya-факт-выпол-раб-l.title'),
-            icon: 'file',
             children: null
           }]
         }

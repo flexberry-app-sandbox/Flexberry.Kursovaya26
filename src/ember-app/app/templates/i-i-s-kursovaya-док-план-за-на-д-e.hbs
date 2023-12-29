@@ -56,6 +56,16 @@
     {{flexberry-validationmessage error=(v-get validationModel "время" "message")}}
   </div>
   <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.статус
+      class=(if (v-get validationModel "статус" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursovaya-док-план-за-на-д-e.статус-caption")
+      data-test-i-i-s-kursovaya-док-план-за-на-д-e-статус=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "статус" "message")}}
+  </div>
+  <div class="field">
     <label>{{t "forms.i-i-s-kursovaya-док-план-за-на-д-e.организация-caption"}}</label>
     {{flexberry-lookup
       choose="showLookupDialog"

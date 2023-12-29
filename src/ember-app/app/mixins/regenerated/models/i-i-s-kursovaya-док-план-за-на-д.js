@@ -8,6 +8,7 @@ export let Model = Mixin.create({
   время: DS.attr('string'),
   дата: DS.attr('date'),
   номер: DS.attr('number'),
+  статус: DS.attr('string'),
   организация: DS.belongsTo('i-i-s-kursovaya-организация', { inverse: null, async: false }),
   спрОбъектСтр: DS.belongsTo('i-i-s-kursovaya-спр-объект-стр', { inverse: null, async: false }),
   спрПользов: DS.belongsTo('i-i-s-kursovaya-спр-пользов', { inverse: null, async: false }),
@@ -33,6 +34,12 @@ export let ValidationRules = {
     validators: [
       validator('ds-error'),
       validator('number', { allowString: true, allowBlank: true, integer: true }),
+    ],
+  },
+  статус: {
+    descriptionKey: 'models.i-i-s-kursovaya-док-план-за-на-д.validations.статус.__caption__',
+    validators: [
+      validator('ds-error'),
     ],
   },
   организация: {
@@ -70,15 +77,16 @@ export let defineProjections = function (modelClass) {
     номер: attr('Номер', { index: 0 }),
     дата: attr('Дата', { index: 1 }),
     время: attr('Время', { index: 2 }),
+    статус: attr('Статус', { index: 3 }),
     организация: belongsTo('i-i-s-kursovaya-организация', 'Организация', {
-      наименование: attr('Организация', { index: 4 })
-    }, { index: 3 }),
+      наименование: attr('Организация', { index: 5 })
+    }, { index: 4 }),
     спрПользов: belongsTo('i-i-s-kursovaya-спр-пользов', 'Пользователь', {
-      фИО: attr('Пользователь', { index: 6 })
-    }, { index: 5 }),
+      фИО: attr('Пользователь', { index: 7 })
+    }, { index: 6 }),
     спрОбъектСтр: belongsTo('i-i-s-kursovaya-спр-объект-стр', 'Объект строительства', {
-      наименование: attr('Объект строительства', { index: 8 })
-    }, { index: 7 }),
+      наименование: attr('Объект строительства', { index: 9 })
+    }, { index: 8 }),
     тЧПлЗНаД: hasMany('i-i-s-kursovaya-т-ч-пл-з-на-д', 'Табличная часть: Плановая заявка на день', {
       статьиЗатрат: belongsTo('i-i-s-kursovaya-статьи-затрат', 'Статья затрат', {
         наименование: attr('Статья затрат', { index: 1 })
@@ -109,14 +117,15 @@ export let defineProjections = function (modelClass) {
     номер: attr('Номер', { index: 0 }),
     дата: attr('Дата', { index: 1 }),
     время: attr('Время', { index: 2 }),
+    статус: attr('Статус', { index: 3 }),
     организация: belongsTo('i-i-s-kursovaya-организация', 'Организация', {
-      наименование: attr('Организация', { index: 3 })
+      наименование: attr('Организация', { index: 4 })
     }, { index: -1, hidden: true }),
     спрПользов: belongsTo('i-i-s-kursovaya-спр-пользов', 'Пользователь', {
-      фИО: attr('Пользователь', { index: 4 })
+      фИО: attr('Пользователь', { index: 5 })
     }, { index: -1, hidden: true }),
     спрОбъектСтр: belongsTo('i-i-s-kursovaya-спр-объект-стр', 'Объект строительства', {
-      наименование: attr('Объект строительства', { index: 5 })
+      наименование: attr('Объект строительства', { index: 6 })
     }, { index: -1, hidden: true })
   });
 };

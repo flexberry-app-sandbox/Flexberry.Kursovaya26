@@ -33,17 +33,22 @@ namespace IIS.Kursovaya
             "Код as \'Код\'",
             "РегНом as \'Регистрационный номер\'",
             "СпрТранспСр as \'Транспортное средство \'",
-            "СпрТранспСр.Наименование as \'Транспортное средство \'"})]
+            "СпрТранспСр.Наименование as \'Транспортное средство \'",
+            "СпрКонтрАг as \'Контрагент\'",
+            "СпрКонтрАг.Наименование as \'Контрагент\'"})]
     [View("ТрСрКнтрL", new string[] {
             "Код as \'Код\'",
             "РегНом as \'Регистрационный номер\'",
-            "СпрТранспСр.Наименование as \'Транспортное средство \'"})]
+            "СпрТранспСр.Наименование as \'Транспортное средство \'",
+            "СпрКонтрАг.Наименование as \'Контрагент\'"})]
     public class ТрСрКнтр : ICSSoft.STORMNET.DataObject
     {
         
         private int fКод;
         
         private string fРегНом;
+        
+        private IIS.Kursovaya.СпрКонтрАг fСпрКонтрАг;
         
         private IIS.Kursovaya.СпрТранспСр fСпрТранспСр;
         
@@ -112,6 +117,40 @@ namespace IIS.Kursovaya
                 // *** Start programmer edit section *** (ТрСрКнтр.РегНом Set end)
 
                 // *** End programmer edit section *** (ТрСрКнтр.РегНом Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Тр ср кнтр.
+        /// </summary>
+        // *** Start programmer edit section *** (ТрСрКнтр.СпрКонтрАг CustomAttributes)
+
+        // *** End programmer edit section *** (ТрСрКнтр.СпрКонтрАг CustomAttributes)
+        [PropertyStorage(new string[] {
+                "СпрКонтрАг"})]
+        [NotNull()]
+        public virtual IIS.Kursovaya.СпрКонтрАг СпрКонтрАг
+        {
+            get
+            {
+                // *** Start programmer edit section *** (ТрСрКнтр.СпрКонтрАг Get start)
+
+                // *** End programmer edit section *** (ТрСрКнтр.СпрКонтрАг Get start)
+                IIS.Kursovaya.СпрКонтрАг result = this.fСпрКонтрАг;
+                // *** Start programmer edit section *** (ТрСрКнтр.СпрКонтрАг Get end)
+
+                // *** End programmer edit section *** (ТрСрКнтр.СпрКонтрАг Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (ТрСрКнтр.СпрКонтрАг Set start)
+
+                // *** End programmer edit section *** (ТрСрКнтр.СпрКонтрАг Set start)
+                this.fСпрКонтрАг = value;
+                // *** Start programmer edit section *** (ТрСрКнтр.СпрКонтрАг Set end)
+
+                // *** End programmer edit section *** (ТрСрКнтр.СпрКонтрАг Set end)
             }
         }
         

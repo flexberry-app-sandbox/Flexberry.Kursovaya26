@@ -52,6 +52,8 @@ CREATE TABLE [ТрСрКнтр] (
 
 	 [РегНом] VARCHAR(255)  NULL,
 
+	 [СпрКонтрАг] UNIQUEIDENTIFIER  NOT NULL,
+
 	 [СпрТранспСр] UNIQUEIDENTIFIER  NOT NULL,
 
 	 PRIMARY KEY ([primaryKey]))
@@ -100,6 +102,8 @@ CREATE TABLE [ДокПланЗаНаД] (
 	 [Дата] DATETIME  NULL,
 
 	 [Номер] INT  NULL,
+
+	 [Статус] VARCHAR(255)  NULL,
 
 	 [Организация] UNIQUEIDENTIFIER  NOT NULL,
 
