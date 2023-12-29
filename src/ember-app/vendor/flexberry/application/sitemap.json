@@ -4,9 +4,9 @@
   "items": [
     {
       "link": null,
-      "menuName": "приложение",
-      "caption": "Приложение",
-      "title": "Приложение",
+      "menuName": "справочники",
+      "caption": "Справочники",
+      "title": "Справочники",
       "children": [
         {
           "link": "i-i-s-kursovaya-спр-пользов-l",
@@ -33,13 +33,6 @@
           "link": "i-i-s-kursovaya-спр-трансп-ср-l",
           "menuName": null,
           "caption": "Справочник: Транспортные Средства",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-kursovaya-док-план-за-на-д-l",
-          "menuName": null,
-          "caption": "Документ: Плановая заявка на день",
           "title": "",
           "children": null
         },
@@ -91,12 +84,27 @@
           "caption": "Справочник: Единицы измерения",
           "title": "",
           "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "документы",
+      "caption": "Документы",
+      "title": "Документы",
+      "children": [
+        {
+          "link": "i-i-s-kursovaya-док-план-за-на-д-l",
+          "menuName": null,
+          "caption": "Документ: Плановая заявка на день",
+          "title": "Док план за на ДL",
+          "children": null
         },
         {
           "link": "i-i-s-kursovaya-факт-выпол-раб-l",
           "menuName": null,
           "caption": "Документ: Фактическое выполнение работ",
-          "title": "",
+          "title": "Факт выпол раб L",
           "children": null
         }
       ]
